@@ -22,6 +22,14 @@ def getMenuOption(debug = False):
         else: 
             print("please enter a valid choice")
             
+        elif (option == "2" or 
+        option == "two" or 
+        option == "dos"): 
+            option = "2" 
+            goodInput = True    
+        else: 
+            print("please enter a valid choice")
+            
         return option
 
 def getWord(prompt, debug = False):
