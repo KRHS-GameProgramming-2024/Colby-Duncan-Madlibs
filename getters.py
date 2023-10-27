@@ -19,8 +19,6 @@ def getMenuOption(debug = False):
         option == "uno"): 
             option = "1" 
             goodInput = True    
-        else: 
-            print("please enter a valid choice")
             
         elif (option == "2" or 
         option == "two" or 
