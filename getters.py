@@ -43,6 +43,39 @@ def getWord(prompt, debug = False):
             print("Don't say naughty words >:(")
             
     return word
+  
+def getBob(prompt, debug = False):
+	if debug: print("getBob Function")
+    
+	goodInput = False
+    
+    
+    
+	while not goodInput:
+		word = input(prompt)
+		goodInput = True
+		if isBob(word):
+			goodInput = False
+			print("try something else")
+            
+        
+	return word
+    
+def isBob(word, debug = False):
+    if debug: print("isBob Function")
+    if word.lower() in bobList:
+        return True
+    else: 
+        return False   
+        
+bobList = ["accident",           
+           "people",
+           "meth",
+           "cocaine",
+           "weed",
+           "cat",
+           "dog",          
+ ]   
 
 def getShop(prompt, debug = False):
     if debug: print("getShop Function")
