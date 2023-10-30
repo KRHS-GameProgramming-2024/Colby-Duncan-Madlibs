@@ -1,10 +1,10 @@
-from screens import *
-from getters import *
+from Screens import *
+from Getters import *
 from Story1 import *
 from Story2 import *
 from Story3 import *
 
-def madlibs(debug = False):
+def Madlibs(debug = False):
     if debug: print("welcome to madlibs debugging")
 
     print(TitleScreen(debug))
@@ -29,4 +29,4 @@ def madlibs(debug = False):
 
 
 
-madlibs(True)
+Madlibs(True)
