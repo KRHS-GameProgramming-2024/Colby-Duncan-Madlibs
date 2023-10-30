@@ -1,6 +1,6 @@
 from getters import * 
 
-def story1(debug = False):
+def Story1(debug = False):
     if debug: print("story1 Function")
 
     print("\n")

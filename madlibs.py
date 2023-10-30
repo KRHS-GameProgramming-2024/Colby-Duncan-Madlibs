@@ -19,7 +19,7 @@ def madlibs(debug = False):
         if choice == "q":
             exit();
         elif choice == "1":
-            print(story1())
+            print(Story1())
             print("\n")
             input('Press "Enter" to continue.')
         elif choice == "2":
