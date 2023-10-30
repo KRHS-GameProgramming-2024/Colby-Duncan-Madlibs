@@ -122,7 +122,7 @@ def getAnimal(prompt, debug = False):
 def isSwear(word, debug = False):
     if debug: print("isSwear Function")
     if word.lower() in swearList:
-        return True
+        exit();
     else:
         return False
 
