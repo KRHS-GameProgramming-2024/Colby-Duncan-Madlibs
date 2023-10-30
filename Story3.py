@@ -14,9 +14,9 @@ def Story3(debug = False):
 	
 	
 	out = "\n"
-	out += "Once upon a time there was " + Name
+	out += "Once upon a time there was " + Name + "."
 	out += "\n"
-	out += Name + " and his friends were playing D&D, they were fighting a " + Monster
+	out += Name + " and his friends were playing D&D, they were fighting a " + Monster + "."
 	
 	
 	

@@ -1,3 +1,4 @@
+
 from Screens import *
 from Getters import *
 from Story1 import *
@@ -26,7 +27,9 @@ def Madlibs(debug = False):
             print(Story2())
             print("\n")
             input('Press "Enter" to continue.')
-
-
+        elif choice == "3":
+            print(Story3())
+            print("\n")
+            input('Press "Enter" to continue,')
 
 Madlibs(True)

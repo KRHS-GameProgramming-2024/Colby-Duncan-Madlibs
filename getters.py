@@ -24,7 +24,13 @@ def getMenuOption(debug = False):
         option == "two" or 
         option == "dos"): 
             option = "2" 
-            goodInput = True    
+            goodInput = True
+        
+        elif (option == "3" or 
+        option == "three" or 
+        option == "tres"): 
+            option = "3" 
+            goodInput = True  
         else: 
             print("please enter a valid choice")
             
@@ -116,6 +122,48 @@ def getAnimal(prompt, debug = False):
         elif word.lower() not in goodAnimals:
             goodInput = False
             print("Idk that animal. (or its not a small animal that would be found in a european forest)")
+            
+    return word
+
+def getMonster(prompt, debug = False):
+    if debug: print("getMonster Function")
+
+    goodInput = False
+    
+    goodMonsters = ["dragon",
+                    "orc",
+                    "ogre",
+                    "titan",
+                    "cyclops",
+                    "zombie",
+                    "skeleton",
+                    "spider",
+                    "thief",
+                    "guard",
+                    "castle guard",
+                    "goblin",
+                    "gremlin",
+                    "mimic",
+                    "werewolf",
+                    "vampire",
+                    "witch",
+                    "worlock",
+                    "gargoyle",
+                    "monster",
+                    "minotaur",
+                    "mummy",
+                    "wyvern",
+                    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print("Don't say naughty words >:(")
+        elif word.lower() not in goodMonsters:
+            goodInput = False
+            print("Idk that Monster")
             
     return word
 
