@@ -5,13 +5,13 @@ def Story1(debug = False):
 
     print("\n")
     wizardFrogName = getWord("Enter a male name: ", debug)
-    shopName = getShop("Enter a shop name: ", debug)
-    shadyfrogName = getShady("Enter the name of a shady frog: ", debug)
-    frogbuisnessName = getBuisness("Enter the name of a buisness: ", debug)
+    shopName = getWord("Enter a shop name: ", debug)
+    shadyfrogName = getWord("Enter the name of a shady frog: ", debug)
+    frogbuisnessName = getWord("Enter the name of a buisness: ", debug)
     animalName = getAnimal("Enter an animal: ", debug)
-    number1 = getNumber("Enter a number thats more than 1: ", debug)
-    spellName = getSpell("Enter the name of a magic spell: ", debug)
-    causeofDeath = getDeath("enter the cause of death for the shady frog: ", debug)
+    number1 = getWord("Enter a number thats more than 1: ", debug)
+    spellName = getWord("Enter the name of a magic spell: ", debug)
+    causeofDeath = getWord("enter the cause of death for the shady frog: ", debug)
     
     out = "\n"
     out += "Once upon a time there was a frog, a wizard frog. his name was " + wizardFrogName + "."

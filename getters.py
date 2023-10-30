@@ -77,50 +77,6 @@ bobList = ["accident",
            "dog",          
  ]   
 
-def getShop(prompt, debug = False):
-    if debug: print("getShop Function")
-
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print("Don't say naughty words >:(")
-            
-    return word
-
-def getShady(prompt, debug = False):
-    if debug: print("getShady Function")
-
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print("Don't say naughty words >:(")
-            
-    return word
-
-def getBuisness(prompt, debug = False):
-    if debug: print("getBuisness Function")
-
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print("Don't say naughty words >:(")
-            
-    return word
-    
-
-
 def getAnimal(prompt, debug = False):
     if debug: print("getAnimal Function")
 
@@ -160,48 +116,6 @@ def getAnimal(prompt, debug = False):
         elif word.lower() not in goodAnimals:
             goodInput = False
             print("Idk that animal. (or its not a small animal that would be found in a european forest)")
-            
-    return word
-    
-def getNumber(prompt, debug = False):
-    if debug: print("getNumber Function")
-
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print("Don't say naughty words >:(")
-            
-    return word
-
-def getSpell(prompt, debug = False):
-    if debug: print("getSpell Function")
-
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print("Don't say naughty words >:(")
-
-    return word
-
-def getDeath(prompt, debug = False):
-    if debug: print("getDeath Function")
-
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print("Don't say naughty words >:(")
             
     return word
 
