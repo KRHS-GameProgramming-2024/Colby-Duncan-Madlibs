@@ -4,7 +4,7 @@ def getMenuOption(debug = False):
     goodInput = False
     
     while not goodInput:
-        option = input("Please selest an option: ")
+        option = input("Please select an option: ")
         option = option.lower()
         
         
@@ -188,7 +188,7 @@ def getSpell(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print("Don't say naughty words >:(")
-            
+
     return word
 
 def getDeath(prompt, debug = False):
