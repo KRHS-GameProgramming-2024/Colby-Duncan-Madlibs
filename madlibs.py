@@ -22,14 +22,14 @@ def Madlibs(debug = False):
         elif choice == "1":
             print(Story1())
             print("\n")
-            input('Press "Enter" to continue.')
+            input('Press "Enter" to continue:')
         elif choice == "2":
             print(Story2())
             print("\n")
-            input('Press "Enter" to continue.')
+            input('Press "Enter" to continue:')
         elif choice == "3":
             print(Story3())
             print("\n")
-            input('Press "Enter" to continue,')
+            input('Press "Enter" to continue:')
 
 Madlibs(True)

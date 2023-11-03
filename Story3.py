@@ -8,32 +8,33 @@ def Story3(debug = False):
 	Monster = getMonster("Enter a Monster: ", debug)
 	Number = getWord("Enter a number less than 20: ", debug)
 	Roll = getWord("Enter a Number more than the last Number: ", debug)
-	Name2 = getWord("Enter another Name: ", debug)\
-	
-	
+	Name2 = getWord("Enter a female Name: ", debug)
+	Magic = getWord("Enter a Magic Spell: ", debug)
+	Dude = getWord("Enter a Male Name: ", debug)
+	Animal = getAnimal("Enter an Animal: ", debug)
 	
 	out = "\n"
 	out += "Once upon a time there was " + Name + "."
 	out += "\n"
 	out += Name + " and his friends were playing D&D, they were fighting a " + Monster + "."
 	out += "\n"
-	out += "On " + Name + "'s turn, to kill the " + Monster + " he needed to roll a " + Number "."
+	out += "On " + Name + "'s turn, to kill the " + Monster + " he needed to roll a " + Number + "."
 	out += "\n"
 	out += Name + " rolled a " + Roll + " and killed the " + Monster + "."
 	out += "\n"
-	out += "Next it was " + Name2 + "'s turn and they 
+	out += "Next it was " + Name2 + "'s turn and they cast " + Magic + "."
 	out += "\n"
-	out +=
-	out += "\n"
-	out +=
-	out += "\n"
-	out +=
-	
+	out += "The spell hit " + Dude + " and turned him into a " + Animal + "."
+	if Animal == ("newt"):
+		  out += " He got better. "
+	else:
+		out += "\n" 
+		out += "Then she was put on trial as a witch" 
+		out += "\n"
+		out += "She was found guilty and burned at the stake. The End"
 
 	
-	
-	
-	
 	return out
+
 
 	
