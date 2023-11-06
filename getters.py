@@ -111,8 +111,11 @@ def getAnimal(prompt, debug = False):
                    "swallow",
                    "woodpecker",
                    "starling",
+                   "cat",
+                   "dog",
+                   "bird",
                    ]
-    
+   
     while not goodInput:
         word = input(prompt)
         goodInput = True
