@@ -9,7 +9,7 @@ def Story1(debug = False):
     shadyfrogName = getWord("Enter the name of a shady frog: ", debug)
     frogbuisnessName = getWord("Enter the name of a buisness: ", debug)
     animalName = getAnimal("Enter an animal: ", debug)
-    number1 = getWord("Enter a number thats more than 1: ", debug)
+    number1 = getNumber("Enter a number thats more than 1: ", debug)
     spellName = getWord("Enter the name of a magic spell: ", debug)
     causeofDeath = getWord("enter the cause of death for the shady frog: ", debug)
     
