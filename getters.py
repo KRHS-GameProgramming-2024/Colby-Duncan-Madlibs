@@ -124,7 +124,7 @@ def getAnimal(prompt, debug = False):
             print("Don't say naughty words >:(")
         elif word.lower() not in goodAnimals:
             goodInput = False
-            print("Idk that animal. (or its not a small animal that would be found in a european forest)")
+            print("Idk that animal.")
             
     return word
 
