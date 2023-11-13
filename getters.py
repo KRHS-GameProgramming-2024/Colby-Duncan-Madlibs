@@ -384,6 +384,7 @@ def getMonster(prompt, debug = False):
                     "minotaur",
                     "mummy",
                     "wyvern",
+                    "bob",
                     ]
     
     while not goodInput:

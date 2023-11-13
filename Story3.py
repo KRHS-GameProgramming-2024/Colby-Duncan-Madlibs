@@ -6,7 +6,7 @@ def Story3(debug = False):
 	print("\n")
 	Name = getWord("Enter a Name: ", debug)
 	Monster = getMonster("Enter a Monster: ", debug)
-	Number = getWord("Enter a number less than 20: ", debug)
+	Number = getNumber("Enter a number less than 20: ", debug)
 	Roll = getWord("Enter a Number more than the last Number: ", debug)
 	Name2 = getWord("Enter a female Name: ", debug)
 	Magic = getWord("Enter a Magic Spell: ", debug)
@@ -26,12 +26,15 @@ def Story3(debug = False):
 	out += "\n"
 	out += "The spell hit " + Dude + " and turned him into a " + Animal + "."
 	if Animal == ("newt"):
-		  out += " He got better. "
+		  out += "\n"
+		  out += "He got better"
 	else:
 		out += "\n" 
 		out += "Then she was put on trial as a witch" 
 		out += "\n"
-		out += "She was found guilty and burned at the stake. The End"
+		out += "She was found guilty and burned at the stake"
+		out += "\n"
+		out += "The End"
 
 	
 	return out
