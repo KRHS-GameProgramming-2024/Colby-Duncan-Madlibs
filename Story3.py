@@ -35,8 +35,10 @@ def Story3(debug = False):
 		out += "She was found guilty and burned at the stake"
 		out += "\n"
 		out += "The End"
-
-	
+		out += "\n"
+		out += "(Hint, Think Monty python and the Holy Grail)"
+		
+		
 	return out
 
 

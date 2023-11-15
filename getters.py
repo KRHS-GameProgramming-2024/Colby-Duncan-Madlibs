@@ -275,6 +275,7 @@ numberList = ["1",
 			  "198",
 			  "199",
 			  "200",
+			  "bob",
 ]
             
 def getBob(prompt, debug = False):
