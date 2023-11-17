@@ -36,7 +36,7 @@ def Story3(debug = False):
 		out += "\n"
 		out += "The End"
 		out += "\n"
-		out += "(Hint, Think Monty python and the Holy Grail)"
+		out += "(Think Monty python and the Holy Grail)"
 		
 		
 	return out
