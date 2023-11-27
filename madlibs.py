@@ -1,6 +1,6 @@
-from Screens import *
-from Getters import *
-from Story1 import *
+from screens import *
+from getters import *
+from story1 import *
 from Story2 import *
 from Story3 import *
 
