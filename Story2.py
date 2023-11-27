@@ -12,24 +12,20 @@ def Story2(debug = False):
     emotion1 = getWord("Enter an Emotion: ", debug)
     adj2 = getWord("Enter an Adj: ", debug)
     death1 = getWord("Enter a Noun: ", debug)
-    out = "\n"
-
-    if name1 == ("bob"):
-        out += "bob shall be no more."
-    else:               
-            out += "Once upon a time there was " + name1 + "."
-            out += "\n"
-            out += name1 + " owned a " + adj1 + " buisness, " + name1 + "'s " + industry1 + "."
-            out += "\n"
-            out += name1 + "'s " + industry1 + " had a " + accident1 + " accident while shipping " + item1 + "."
-            out += "\n"
-            out += name1 + " recived a phone call about the accident, he was " + emotion1 + "!"
-            out += "\n"
-            out += name1 + " then made a new policy, no more " + adj2 + " shipping!"
-            out += "\n"
-            out += name1 + " then died from " + death1 + " a year later."
-            out += "\n"
-            out += "The End"
     
+    out = "\n"
+    out += "Once upon a time there was " + name1 + "."
+    out += "\n"
+    out += name1 + " owned a " + adj1 + " buisness, " + name1 + "'s " + industry1 + "."
+    out += "\n"
+    out += name1 + "'s " + industry1 + " had a " + accident1 + " accident while shipping " + item1 + "."
+    out += "\n"
+    out += name1 + " recived a phone call about the accident, he was " + emotion1 + "!"
+    out += "\n"
+    out += name1 + " then made a new policy, no more " + adj2 + " shipping!"
+    out += "\n"
+    out += name1 + " then died from " + death1 + " a year later."
+    out += "\n"
+    out += "The End"
     
     return out
