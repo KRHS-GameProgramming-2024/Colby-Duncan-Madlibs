@@ -6,7 +6,7 @@ from Story3 import *
 
 def Madlibs(debug = False):
     if debug: print("welcome to madlibs debugging")
-
+    
     print(TitleScreen(debug))
     input('Press "Enter" to continue: ')
     
