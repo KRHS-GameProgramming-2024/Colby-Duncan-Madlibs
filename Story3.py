@@ -1,5 +1,5 @@
-from Getters import *
- 
+from getters import *
+
 def Story3(debug = False):
 	if debug: print("Story3 Function")
 	
@@ -7,7 +7,7 @@ def Story3(debug = False):
 	Name = getWord("Enter a Name: ", debug)
 	Monster = getMonster("Enter a Monster: ", debug)
 	Number = getNumber("Enter a number less than 20: ", debug)
-	Roll = getWord("Enter a Number more than the last Number: ", debug)
+	Roll = getNumber("Enter a Number more than the last Number: ", debug)
 	Name2 = getWord("Enter a female Name: ", debug)
 	Magic = getWord("Enter a Magic Spell: ", debug)
 	Dude = getWord("Enter a Male Name: ", debug)
