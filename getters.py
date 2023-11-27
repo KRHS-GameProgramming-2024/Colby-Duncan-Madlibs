@@ -68,6 +68,7 @@ def getNumber(prompt, debug = False):
             
     return word
 
+
 def isNumber(word, debug = False):
     if debug: print("isNumber Function")
     if word.lower() in numberList:
@@ -295,6 +296,12 @@ def getBob(prompt, debug = False):
         
     return word
   
+def isBob(word, debug = False):
+    if debug: print("isBob Function")
+    if word.lower() in bobList:
+        return True
+    else: 
+        return False   
         
 bobList = ["fun",
            "funny",
